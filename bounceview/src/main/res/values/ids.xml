@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="bounce_background" type="id" />
+    <item name="bounce_pub" type="id" />
+    <item name="bounce_content" type="id" />
+</resources>
