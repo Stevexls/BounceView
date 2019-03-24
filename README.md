@@ -1,2 +1,2 @@
 # BounceView
-<img src="preview.gif" width="720" height="1280">
+<img src="preview.gif" width="360" height="640">
