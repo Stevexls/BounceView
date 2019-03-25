@@ -93,7 +93,9 @@ public class BounceView extends RelativeLayout {
         } else if (bgAnimStyle == Style.TRANS) {
             drawTransAnim(canvas);
         } else if (bgAnimStyle == Style.ALPHA) {
-            ivBounceBg.setAlpha(curValue);
+            if (ivBounceBg != null) {
+                ivBounceBg.setAlpha(curValue);
+            }
             super.dispatchDraw(canvas);
         } else if (bgAnimStyle == Style.NONE) {
             super.dispatchDraw(canvas);
@@ -256,15 +258,21 @@ public class BounceView extends RelativeLayout {
     }
 
     public void setBounceBgDrawable(Drawable drawable) {
-        ivBounceBg.setBackgroundDrawable(drawable);
+        if (ivBounceBg != null) {
+            ivBounceBg.setBackgroundDrawable(drawable);
+        }
     }
 
     public void setBounceBgColor(int color) {
-        ivBounceBg.setBackgroundColor(color);
+        if (ivBounceBg != null) {
+            ivBounceBg.setBackgroundColor(color);
+        }
     }
 
     public void setBounceBgResource(int resId) {
-        ivBounceBg.setBackgroundResource(resId);
+        if (ivBounceBg != null) {
+            ivBounceBg.setBackgroundResource(resId);
+        }
     }
 
     // 设置背景动画时间
