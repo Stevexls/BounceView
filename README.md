@@ -13,7 +13,6 @@ dependencies {
 Look over [Quick Setup](https://github.com/Aspsine/SwipeToLoadLayout/wiki/Quick-Setup) for more details.
 
 ## Thanks
-- Google SwipeRefreshLayout
 - [Android仿微博菜单弹出效果](https://gqdy365.iteye.com/blog/2199256)
 - [android 仿微博、酷安点击加号揭露动画弹出菜单+背景模糊效果](https://blog.csdn.net/u012390044/article/details/80746180)
 
