@@ -1,5 +1,5 @@
 ## Demo ScreenShot
-<img src="preview.gif" width="288" height="512">
+<img src="preview.gif" width="360" height="640">
 
 ## Usage
 - Step 1. Add the dependency in the form
