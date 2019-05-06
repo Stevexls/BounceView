@@ -10,7 +10,7 @@ dependencies {
 ```
 
 - Step 2.
-Look over [Quick Setup](https://github.com/Aspsine/SwipeToLoadLayout/wiki/Quick-Setup) for more details.
+Look over [Quick Setup](https://github.com/Stevexls/BounceView/wiki/Quick-Setup) for more details.
 
 ## Thanks
 - [Android仿微博菜单弹出效果](https://gqdy365.iteye.com/blog/2199256)
